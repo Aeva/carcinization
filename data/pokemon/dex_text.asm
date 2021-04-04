@@ -973,9 +973,9 @@ _KrabbyDexEntry::
 	next "and zenith of"
 	next "pokemon evolution."
 
-	page "All #MON aspire to"
-	next "someday become as"
-	next "KRABBY."
+	page "All #MON aspire"
+	next "to someday become"
+	next "as KRABBY"
 	dex
 
 _KinglerDexEntry::
