@@ -1081,9 +1081,10 @@ MeowthEvosMoves:
 
 KrabbyEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 28, KRABBY
+	db EV_LEVEL, 28, KINGLER
 	db 0
 ; Learnset
+	db 16, WATER_GUN
 	db 20, VICEGRIP
 	db 25, GUILLOTINE
 	db 30, STOMP
