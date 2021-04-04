@@ -197,6 +197,7 @@ EvosMovesPointerTable:
 
 RhydonEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 30, STOMP
@@ -209,6 +210,7 @@ RhydonEvosMoves:
 
 KangaskhanEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 26, BITE
@@ -220,7 +222,7 @@ KangaskhanEvosMoves:
 
 NidoranMEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 16, NIDORINO
+	db EV_LEVEL, 16, KRABBY
 	db 0
 ; Learnset
 	db 8, HORN_ATTACK
@@ -233,7 +235,7 @@ NidoranMEvosMoves:
 
 ClefairyEvosMoves:
 ; Evolutions
-	db EV_ITEM, MOON_STONE, 1, CLEFABLE
+	db EV_ITEM, MOON_STONE, 1, KRABBY
 	db 0
 ; Learnset
 	db 13, SING
@@ -246,7 +248,7 @@ ClefairyEvosMoves:
 
 SpearowEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 20, FEAROW
+	db EV_LEVEL, 20, KRABBY
 	db 0
 ; Learnset
 	db 9, LEER
@@ -258,7 +260,7 @@ SpearowEvosMoves:
 
 VoltorbEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 30, ELECTRODE
+	db EV_LEVEL, 30, KRABBY
 	db 0
 ; Learnset
 	db 17, SONICBOOM
@@ -270,6 +272,7 @@ VoltorbEvosMoves:
 
 NidokingEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 8, HORN_ATTACK
@@ -279,6 +282,7 @@ NidokingEvosMoves:
 
 SlowbroEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 18, DISABLE
@@ -292,7 +296,7 @@ SlowbroEvosMoves:
 
 IvysaurEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 32, VENUSAUR
+	db EV_LEVEL, 32, KRABBY
 	db 0
 ; Learnset
 	db 7, LEECH_SEED
@@ -306,6 +310,7 @@ IvysaurEvosMoves:
 
 ExeggutorEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 28, STOMP
@@ -313,6 +318,7 @@ ExeggutorEvosMoves:
 
 LickitungEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 7, STOMP
@@ -324,7 +330,7 @@ LickitungEvosMoves:
 
 ExeggcuteEvosMoves:
 ; Evolutions
-	db EV_ITEM, LEAF_STONE, 1, EXEGGUTOR
+	db EV_ITEM, LEAF_STONE, 1, KRABBY
 	db 0
 ; Learnset
 	db 25, REFLECT
@@ -337,7 +343,7 @@ ExeggcuteEvosMoves:
 
 GrimerEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 38, MUK
+	db EV_LEVEL, 38, KRABBY
 	db 0
 ; Learnset
 	db 30, POISON_GAS
@@ -350,6 +356,7 @@ GrimerEvosMoves:
 
 GengarEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 29, HYPNOSIS
@@ -358,7 +365,7 @@ GengarEvosMoves:
 
 NidoranFEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 16, NIDORINA
+	db EV_LEVEL, 16, KRABBY
 	db 0
 ; Learnset
 	db 8, SCRATCH
@@ -371,6 +378,7 @@ NidoranFEvosMoves:
 
 NidoqueenEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 8, SCRATCH
@@ -380,7 +388,7 @@ NidoqueenEvosMoves:
 
 CuboneEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 28, MAROWAK
+	db EV_LEVEL, 28, KRABBY
 	db 0
 ; Learnset
 	db 10, BONE_CLUB
@@ -395,7 +403,7 @@ CuboneEvosMoves:
 
 RhyhornEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 42, RHYDON
+	db EV_LEVEL, 42, KRABBY
 	db 0
 ; Learnset
 	db 30, STOMP
@@ -408,6 +416,7 @@ RhyhornEvosMoves:
 
 LaprasEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 16, SING
@@ -420,12 +429,14 @@ LaprasEvosMoves:
 
 ArcanineEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MewEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 10, TRANSFORM
@@ -436,6 +447,7 @@ MewEvosMoves:
 
 GyaradosEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 20, BITE
@@ -447,7 +459,7 @@ GyaradosEvosMoves:
 
 ShellderEvosMoves:
 ; Evolutions
-	db EV_ITEM, WATER_STONE, 1, CLOYSTER
+	db EV_ITEM, WATER_STONE, 1, KRABBY
 	db 0
 ; Learnset
 	db 18, SUPERSONIC
@@ -459,7 +471,7 @@ ShellderEvosMoves:
 
 TentacoolEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 30, TENTACRUEL
+	db EV_LEVEL, 30, KRABBY
 	db 0
 ; Learnset
 	db 7, SUPERSONIC
@@ -474,7 +486,7 @@ TentacoolEvosMoves:
 
 GastlyEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 25, HAUNTER
+	db EV_LEVEL, 25, KRABBY
 	db 0
 ; Learnset
 	db 27, HYPNOSIS
@@ -483,6 +495,7 @@ GastlyEvosMoves:
 
 ScytherEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 17, LEER
@@ -496,7 +509,7 @@ ScytherEvosMoves:
 
 StaryuEvosMoves:
 ; Evolutions
-	db EV_ITEM, WATER_STONE, 1, STARMIE
+	db EV_ITEM, WATER_STONE, 1, KRABBY
 	db 0
 ; Learnset
 	db 17, WATER_GUN
@@ -510,6 +523,7 @@ StaryuEvosMoves:
 
 BlastoiseEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 8, BUBBLE
@@ -522,6 +536,7 @@ BlastoiseEvosMoves:
 
 PinsirEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 21, BIND
@@ -535,6 +550,7 @@ PinsirEvosMoves:
 
 TangelaEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 24, BIND
@@ -549,19 +565,21 @@ TangelaEvosMoves:
 
 MissingNo1FEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MissingNo20EvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 GrowlitheEvosMoves:
 ; Evolutions
-	db EV_ITEM, FIRE_STONE, 1, ARCANINE
+	db EV_ITEM, FIRE_STONE, 1, KRABBY
 	db 0
 ; Learnset
 	db 18, EMBER
@@ -573,6 +591,7 @@ GrowlitheEvosMoves:
 
 OnixEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 15, BIND
@@ -584,6 +603,7 @@ OnixEvosMoves:
 
 FearowEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 9, LEER
@@ -595,7 +615,7 @@ FearowEvosMoves:
 
 PidgeyEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 18, PIDGEOTTO
+	db EV_LEVEL, 18, KRABBY
 	db 0
 ; Learnset
 	db 5, SAND_ATTACK
@@ -608,7 +628,7 @@ PidgeyEvosMoves:
 
 SlowpokeEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 37, SLOWBRO
+	db EV_LEVEL, 37, KRABBY
 	db 0
 ; Learnset
 	db 18, DISABLE
@@ -621,7 +641,7 @@ SlowpokeEvosMoves:
 
 KadabraEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, ALAKAZAM
+	db EV_TRADE, 1, KRABBY
 	db 0
 ; Learnset
 	db 16, CONFUSION
@@ -634,7 +654,7 @@ KadabraEvosMoves:
 
 GravelerEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, GOLEM
+	db EV_TRADE, 1, KRABBY
 	db 0
 ; Learnset
 	db 11, DEFENSE_CURL
@@ -647,6 +667,7 @@ GravelerEvosMoves:
 
 ChanseyEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 12, DOUBLESLAP
@@ -660,7 +681,7 @@ ChanseyEvosMoves:
 
 MachokeEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, MACHAMP
+	db EV_TRADE, 1, KRABBY
 	db 0
 ; Learnset
 	db 20, LOW_KICK
@@ -672,6 +693,7 @@ MachokeEvosMoves:
 
 MrMimeEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 15, CONFUSION
@@ -683,6 +705,7 @@ MrMimeEvosMoves:
 
 HitmonleeEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 33, ROLLING_KICK
@@ -694,6 +717,7 @@ HitmonleeEvosMoves:
 
 HitmonchanEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 33, FIRE_PUNCH
@@ -705,6 +729,7 @@ HitmonchanEvosMoves:
 
 ArbokEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 10, POISON_STING
@@ -716,6 +741,7 @@ ArbokEvosMoves:
 
 ParasectEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 13, STUN_SPORE
@@ -727,7 +753,7 @@ ParasectEvosMoves:
 
 PsyduckEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 33, GOLDUCK
+	db EV_LEVEL, 33, KRABBY
 	db 0
 ; Learnset
 	db 28, TAIL_WHIP
@@ -739,7 +765,7 @@ PsyduckEvosMoves:
 
 DrowzeeEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 26, HYPNO
+	db EV_LEVEL, 26, KRABBY
 	db 0
 ; Learnset
 	db 12, DISABLE
@@ -752,6 +778,7 @@ DrowzeeEvosMoves:
 
 GolemEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 11, DEFENSE_CURL
@@ -764,12 +791,14 @@ GolemEvosMoves:
 
 MissingNo32EvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MagmarEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 36, LEER
@@ -782,12 +811,14 @@ MagmarEvosMoves:
 
 MissingNo34EvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 ElectabuzzEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 34, THUNDERSHOCK
@@ -799,6 +830,7 @@ ElectabuzzEvosMoves:
 
 MagnetonEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 21, SONICBOOM
@@ -811,7 +843,7 @@ MagnetonEvosMoves:
 
 KoffingEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 35, WEEZING
+	db EV_LEVEL, 35, KRABBY
 	db 0
 ; Learnset
 	db 32, SLUDGE
@@ -823,13 +855,14 @@ KoffingEvosMoves:
 
 MissingNo38EvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MankeyEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 28, PRIMEAPE
+	db EV_LEVEL, 28, KRABBY
 	db 0
 ; Learnset
 	db 9, LOW_KICK
@@ -843,7 +876,7 @@ MankeyEvosMoves:
 
 SeelEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 34, DEWGONG
+	db EV_LEVEL, 34, KRABBY
 	db 0
 ; Learnset
 	db 30, GROWL
@@ -855,7 +888,7 @@ SeelEvosMoves:
 
 DiglettEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 26, DUGTRIO
+	db EV_LEVEL, 26, KRABBY
 	db 0
 ; Learnset
 	db 15, GROWL
@@ -867,6 +900,7 @@ DiglettEvosMoves:
 
 TaurosEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 21, STOMP
@@ -878,24 +912,28 @@ TaurosEvosMoves:
 
 MissingNo3DEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MissingNo3EEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MissingNo3FEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 FarfetchdEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 7, LEER
@@ -907,7 +945,7 @@ FarfetchdEvosMoves:
 
 VenonatEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 31, VENOMOTH
+	db EV_LEVEL, 31, KRABBY
 	db 0
 ; Learnset
 	db 11, SUPERSONIC
@@ -922,6 +960,7 @@ VenonatEvosMoves:
 
 DragoniteEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 10, THUNDER_WAVE
@@ -933,25 +972,28 @@ DragoniteEvosMoves:
 
 MissingNo43EvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MissingNo44EvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MissingNo45EvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 DoduoEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 31, DODRIO
+	db EV_LEVEL, 31, KRABBY
 	db 0
 ; Learnset
 	db 20, GROWL
@@ -964,7 +1006,7 @@ DoduoEvosMoves:
 
 PoliwagEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 25, POLIWHIRL
+	db EV_LEVEL, 25, KRABBY
 	db 0
 ; Learnset
 	db 16, HYPNOSIS
@@ -977,6 +1019,7 @@ PoliwagEvosMoves:
 
 JynxEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 18, LICK
@@ -989,6 +1032,7 @@ JynxEvosMoves:
 
 MoltresEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 51, LEER
@@ -998,6 +1042,7 @@ MoltresEvosMoves:
 
 ArticunoEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 51, BLIZZARD
@@ -1007,6 +1052,7 @@ ArticunoEvosMoves:
 
 ZapdosEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 51, THUNDER
@@ -1016,13 +1062,14 @@ ZapdosEvosMoves:
 
 DittoEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MeowthEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 28, PERSIAN
+	db EV_LEVEL, 28, KRABBY
 	db 0
 ; Learnset
 	db 12, BITE
@@ -1034,7 +1081,7 @@ MeowthEvosMoves:
 
 KrabbyEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 28, KINGLER
+	db EV_LEVEL, 28, KRABBY
 	db 0
 ; Learnset
 	db 20, VICEGRIP
@@ -1046,25 +1093,28 @@ KrabbyEvosMoves:
 
 MissingNo4FEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MissingNo50EvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MissingNo51EvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 VulpixEvosMoves:
 ; Evolutions
-	db EV_ITEM, FIRE_STONE, 1, NINETALES
+	db EV_ITEM, FIRE_STONE, 1, KRABBY
 	db 0
 ; Learnset
 	db 16, QUICK_ATTACK
@@ -1076,13 +1126,15 @@ VulpixEvosMoves:
 
 NinetalesEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 PikachuEvosMoves:
 ; Evolutions
-	db EV_ITEM, THUNDER_STONE, 1, RAICHU
+	db EV_LEVEL, 16, KRABBY
+	db EV_ITEM, THUNDER_STONE, 1, KRABBY
 	db 0
 ; Learnset
 	db 6, TAIL_WHIP
@@ -1098,25 +1150,28 @@ PikachuEvosMoves:
 
 RaichuEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MissingNo56EvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MissingNo57EvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 DratiniEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 30, DRAGONAIR
+	db EV_LEVEL, 30, KRABBY
 	db 0
 ; Learnset
 	db 10, THUNDER_WAVE
@@ -1128,7 +1183,7 @@ DratiniEvosMoves:
 
 DragonairEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 55, DRAGONITE
+	db EV_LEVEL, 55, KRABBY
 	db 0
 ; Learnset
 	db 10, THUNDER_WAVE
@@ -1140,7 +1195,7 @@ DragonairEvosMoves:
 
 KabutoEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 40, KABUTOPS
+	db EV_LEVEL, 40, KRABBY
 	db 0
 ; Learnset
 	db 34, ABSORB
@@ -1151,6 +1206,7 @@ KabutoEvosMoves:
 
 KabutopsEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 34, ABSORB
@@ -1161,7 +1217,7 @@ KabutopsEvosMoves:
 
 HorseaEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 32, SEADRA
+	db EV_LEVEL, 32, KRABBY
 	db 0
 ; Learnset
 	db 19, SMOKESCREEN
@@ -1173,6 +1229,7 @@ HorseaEvosMoves:
 
 SeadraEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 19, SMOKESCREEN
@@ -1184,19 +1241,21 @@ SeadraEvosMoves:
 
 MissingNo5EEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MissingNo5FEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 SandshrewEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 22, SANDSLASH
+	db EV_LEVEL, 22, KRABBY
 	db 0
 ; Learnset
 	db 10, SAND_ATTACK
@@ -1208,6 +1267,7 @@ SandshrewEvosMoves:
 
 SandslashEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 10, SAND_ATTACK
@@ -1219,7 +1279,7 @@ SandslashEvosMoves:
 
 OmanyteEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 40, OMASTAR
+	db EV_LEVEL, 40, KRABBY
 	db 0
 ; Learnset
 	db 34, HORN_ATTACK
@@ -1230,6 +1290,7 @@ OmanyteEvosMoves:
 
 OmastarEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 34, HORN_ATTACK
@@ -1240,7 +1301,7 @@ OmastarEvosMoves:
 
 JigglypuffEvosMoves:
 ; Evolutions
-	db EV_ITEM, MOON_STONE, 1, WIGGLYTUFF
+	db EV_ITEM, MOON_STONE, 1, KRABBY
 	db 0
 ; Learnset
 	db 9, POUND
@@ -1254,15 +1315,16 @@ JigglypuffEvosMoves:
 
 WigglytuffEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 EeveeEvosMoves:
 ; Evolutions
-	db EV_ITEM, FIRE_STONE, 1, FLAREON
-	db EV_ITEM, THUNDER_STONE, 1, JOLTEON
-	db EV_ITEM, WATER_STONE, 1, VAPOREON
+	db EV_ITEM, FIRE_STONE, 1, KRABBY
+	db EV_ITEM, THUNDER_STONE, 1, KRABBY
+	db EV_ITEM, WATER_STONE, 1, KRABBY
 	db 0
 ; Learnset
 	db 8, SAND_ATTACK
@@ -1275,6 +1337,7 @@ EeveeEvosMoves:
 
 FlareonEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 8, SAND_ATTACK
@@ -1289,6 +1352,7 @@ FlareonEvosMoves:
 
 JolteonEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 8, SAND_ATTACK
@@ -1303,6 +1367,7 @@ JolteonEvosMoves:
 
 VaporeonEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 8, SAND_ATTACK
@@ -1318,7 +1383,7 @@ VaporeonEvosMoves:
 
 MachopEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 28, MACHOKE
+	db EV_LEVEL, 28, KRABBY
 	db 0
 ; Learnset
 	db 20, LOW_KICK
@@ -1330,7 +1395,7 @@ MachopEvosMoves:
 
 ZubatEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 22, GOLBAT
+	db EV_LEVEL, 22, KRABBY
 	db 0
 ; Learnset
 	db 10, SUPERSONIC
@@ -1342,7 +1407,7 @@ ZubatEvosMoves:
 
 EkansEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 22, ARBOK
+	db EV_LEVEL, 22, KRABBY
 	db 0
 ; Learnset
 	db 10, POISON_STING
@@ -1354,7 +1419,7 @@ EkansEvosMoves:
 
 ParasEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 24, PARASECT
+	db EV_LEVEL, 24, KRABBY
 	db 0
 ; Learnset
 	db 13, STUN_SPORE
@@ -1366,7 +1431,7 @@ ParasEvosMoves:
 
 PoliwhirlEvosMoves:
 ; Evolutions
-	db EV_ITEM, WATER_STONE, 1, POLIWRATH
+	db EV_ITEM, WATER_STONE, 1, KRABBY
 	db 0
 ; Learnset
 	db 16, HYPNOSIS
@@ -1379,6 +1444,7 @@ PoliwhirlEvosMoves:
 
 PoliwrathEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 16, HYPNOSIS
@@ -1387,20 +1453,21 @@ PoliwrathEvosMoves:
 
 WeedleEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 7, KAKUNA
+	db EV_LEVEL, 7, KRABBY
 	db 0
 ; Learnset
 	db 0
 
 KakunaEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 10, BEEDRILL
+	db EV_LEVEL, 10, KRABBY
 	db 0
 ; Learnset
 	db 0
 
 BeedrillEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 12, FURY_ATTACK
@@ -1413,12 +1480,14 @@ BeedrillEvosMoves:
 
 MissingNo73EvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 DodrioEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 20, GROWL
@@ -1431,6 +1500,7 @@ DodrioEvosMoves:
 
 PrimeapeEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 9, LOW_KICK
@@ -1445,6 +1515,7 @@ PrimeapeEvosMoves:
 
 DugtrioEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 15, GROWL
@@ -1456,6 +1527,7 @@ DugtrioEvosMoves:
 
 VenomothEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 22, POISONPOWDER
@@ -1468,6 +1540,7 @@ VenomothEvosMoves:
 
 DewgongEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 30, GROWL
@@ -1479,26 +1552,28 @@ DewgongEvosMoves:
 
 MissingNo79EvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MissingNo7AEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 CaterpieEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 7, METAPOD
+	db EV_LEVEL, 7, KRABBY
 	db 0
 ; Learnset
 	db 0
 
 MetapodEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 10, BUTTERFREE
+	db EV_LEVEL, 10, KRABBY
 	db 0
 ; Learnset
 	db 7, HARDEN
@@ -1506,6 +1581,7 @@ MetapodEvosMoves:
 
 ButterfreeEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 10, CONFUSION
@@ -1520,6 +1596,7 @@ ButterfreeEvosMoves:
 
 MachampEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 20, LOW_KICK
@@ -1531,12 +1608,14 @@ MachampEvosMoves:
 
 MissingNo7FEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 GolduckEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 28, TAIL_WHIP
@@ -1548,6 +1627,7 @@ GolduckEvosMoves:
 
 HypnoEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 12, DISABLE
@@ -1560,6 +1640,7 @@ HypnoEvosMoves:
 
 GolbatEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 10, SUPERSONIC
@@ -1571,6 +1652,7 @@ GolbatEvosMoves:
 
 MewtwoEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 63, BARRIER
@@ -1582,6 +1664,7 @@ MewtwoEvosMoves:
 
 SnorlaxEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 35, BODY_SLAM
@@ -1592,7 +1675,7 @@ SnorlaxEvosMoves:
 
 MagikarpEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 20, GYARADOS
+	db EV_LEVEL, 20, KRABBY
 	db 0
 ; Learnset
 	db 15, TACKLE
@@ -1600,18 +1683,21 @@ MagikarpEvosMoves:
 
 MissingNo86EvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MissingNo87EvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MukEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 30, POISON_GAS
@@ -1624,12 +1710,14 @@ MukEvosMoves:
 
 MissingNo8AEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 KinglerEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 20, VICEGRIP
@@ -1641,6 +1729,7 @@ KinglerEvosMoves:
 
 CloysterEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 50, SPIKE_CANNON
@@ -1648,12 +1737,14 @@ CloysterEvosMoves:
 
 MissingNo8CEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 ElectrodeEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 17, SONICBOOM
@@ -1665,12 +1756,14 @@ ElectrodeEvosMoves:
 
 ClefableEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 WeezingEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 32, SLUDGE
@@ -1682,6 +1775,7 @@ WeezingEvosMoves:
 
 PersianEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 12, BITE
@@ -1693,6 +1787,7 @@ PersianEvosMoves:
 
 MarowakEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 10, BONE_CLUB
@@ -1707,13 +1802,14 @@ MarowakEvosMoves:
 
 MissingNo92EvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 HaunterEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, GENGAR
+	db EV_TRADE, 1, KRABBY
 	db 0
 ; Learnset
 	db 29, HYPNOSIS
@@ -1722,13 +1818,14 @@ HaunterEvosMoves:
 
 AbraEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 16, KADABRA
+	db EV_LEVEL, 16, KRABBY
 	db 0
 ; Learnset
 	db 0
 
 AlakazamEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 16, CONFUSION
@@ -1741,7 +1838,7 @@ AlakazamEvosMoves:
 
 PidgeottoEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 36, PIDGEOT
+	db EV_LEVEL, 36, KRABBY
 	db 0
 ; Learnset
 	db 5, SAND_ATTACK
@@ -1754,6 +1851,7 @@ PidgeottoEvosMoves:
 
 PidgeotEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 5, SAND_ATTACK
@@ -1766,13 +1864,14 @@ PidgeotEvosMoves:
 
 StarmieEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 BulbasaurEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 16, IVYSAUR
+	db EV_LEVEL, 16, KRABBY
 	db 0
 ; Learnset
 	db 7, LEECH_SEED
@@ -1786,6 +1885,7 @@ BulbasaurEvosMoves:
 
 VenusaurEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 7, LEECH_SEED
@@ -1799,6 +1899,7 @@ VenusaurEvosMoves:
 
 TentacruelEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 7, SUPERSONIC
@@ -1813,13 +1914,14 @@ TentacruelEvosMoves:
 
 MissingNo9CEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 GoldeenEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 33, SEAKING
+	db EV_LEVEL, 33, KRABBY
 	db 0
 ; Learnset
 	db 19, SUPERSONIC
@@ -1832,6 +1934,7 @@ GoldeenEvosMoves:
 
 SeakingEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 19, SUPERSONIC
@@ -1844,31 +1947,35 @@ SeakingEvosMoves:
 
 MissingNo9FEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MissingNoA0EvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MissingNoA1EvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MissingNoA2EvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 PonytaEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 40, RAPIDASH
+	db EV_LEVEL, 40, KRABBY
 	db 0
 ; Learnset
 	db 30, TAIL_WHIP
@@ -1881,6 +1988,7 @@ PonytaEvosMoves:
 
 RapidashEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 30, TAIL_WHIP
@@ -1893,7 +2001,7 @@ RapidashEvosMoves:
 
 RattataEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 20, RATICATE
+	db EV_LEVEL, 20, KRABBY
 	db 0
 ; Learnset
 	db 7, QUICK_ATTACK
@@ -1904,6 +2012,7 @@ RattataEvosMoves:
 
 RaticateEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 7, QUICK_ATTACK
@@ -1914,7 +2023,7 @@ RaticateEvosMoves:
 
 NidorinoEvosMoves:
 ; Evolutions
-	db EV_ITEM, MOON_STONE, 1, NIDOKING
+	db EV_ITEM, MOON_STONE, 1, KRABBY
 	db 0
 ; Learnset
 	db 8, HORN_ATTACK
@@ -1927,7 +2036,7 @@ NidorinoEvosMoves:
 
 NidorinaEvosMoves:
 ; Evolutions
-	db EV_ITEM, MOON_STONE, 1, NIDOQUEEN
+	db EV_ITEM, MOON_STONE, 1, KRABBY
 	db 0
 ; Learnset
 	db 8, SCRATCH
@@ -1940,7 +2049,7 @@ NidorinaEvosMoves:
 
 GeodudeEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 25, GRAVELER
+	db EV_LEVEL, 25, KRABBY
 	db 0
 ; Learnset
 	db 11, DEFENSE_CURL
@@ -1953,6 +2062,7 @@ GeodudeEvosMoves:
 
 PorygonEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 23, PSYBEAM
@@ -1963,6 +2073,7 @@ PorygonEvosMoves:
 
 AerodactylEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 33, SUPERSONIC
@@ -1973,13 +2084,14 @@ AerodactylEvosMoves:
 
 MissingNoACEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MagnemiteEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 30, MAGNETON
+	db EV_LEVEL, 30, KRABBY
 	db 0
 ; Learnset
 	db 21, SONICBOOM
@@ -1992,19 +2104,21 @@ MagnemiteEvosMoves:
 
 MissingNoAEEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MissingNoAFEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 CharmanderEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 16, CHARMELEON
+	db EV_LEVEL, 16, KRABBY
 	db 0
 ; Learnset
 	db 9, EMBER
@@ -2017,7 +2131,7 @@ CharmanderEvosMoves:
 
 SquirtleEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 16, WARTORTLE
+	db EV_LEVEL, 16, KRABBY
 	db 0
 ; Learnset
 	db 8, BUBBLE
@@ -2030,7 +2144,7 @@ SquirtleEvosMoves:
 
 CharmeleonEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 36, CHARIZARD
+	db EV_LEVEL, 36, KRABBY
 	db 0
 ; Learnset
 	db 9, EMBER
@@ -2043,7 +2157,7 @@ CharmeleonEvosMoves:
 
 WartortleEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 36, BLASTOISE
+	db EV_LEVEL, 36, KRABBY
 	db 0
 ; Learnset
 	db 8, BUBBLE
@@ -2056,6 +2170,7 @@ WartortleEvosMoves:
 
 CharizardEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 9, EMBER
@@ -2068,31 +2183,35 @@ CharizardEvosMoves:
 
 MissingNoB5EvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 FossilKabutopsEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 FossilAerodactylEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 MonGhostEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 0
 
 OddishEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 21, GLOOM
+	db EV_LEVEL, 21, KRABBY
 	db 0
 ; Learnset
 	db 15, POISONPOWDER
@@ -2105,7 +2224,7 @@ OddishEvosMoves:
 
 GloomEvosMoves:
 ; Evolutions
-	db EV_ITEM, LEAF_STONE, 1, VILEPLUME
+	db EV_ITEM, LEAF_STONE, 1, KRABBY
 	db 0
 ; Learnset
 	db 15, POISONPOWDER
@@ -2118,6 +2237,7 @@ GloomEvosMoves:
 
 VileplumeEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 15, POISONPOWDER
@@ -2127,7 +2247,7 @@ VileplumeEvosMoves:
 
 BellsproutEvosMoves:
 ; Evolutions
-	db EV_LEVEL, 21, WEEPINBELL
+	db EV_LEVEL, 21, KRABBY
 	db 0
 ; Learnset
 	db 13, WRAP
@@ -2141,7 +2261,7 @@ BellsproutEvosMoves:
 
 WeepinbellEvosMoves:
 ; Evolutions
-	db EV_ITEM, LEAF_STONE, 1, VICTREEBEL
+	db EV_ITEM, LEAF_STONE, 1, KRABBY
 	db 0
 ; Learnset
 	db 13, WRAP
@@ -2155,6 +2275,7 @@ WeepinbellEvosMoves:
 
 VictreebelEvosMoves:
 ; Evolutions
+	db EV_LEVEL, 1, KRABBY ; normally doesn't evolve
 	db 0
 ; Learnset
 	db 13, WRAP

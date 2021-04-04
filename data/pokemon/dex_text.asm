@@ -969,23 +969,23 @@ _HypnoDexEntry::
 	dex
 
 _KrabbyDexEntry::
-	text "Its pincers are"
-	next "superb weapons."
-	next "They sometimes"
+	text "It is the pinnacle"
+	next "and zenith of"
+	next "pokemon evolution."
 
-	page "break off during"
-	next "battle, but they"
-	next "grow back fast"
+	page "All #MON aspire to"
+	next "someday become as"
+	next "KRABBY."
 	dex
 
 _KinglerDexEntry::
-	text "One claw grew"
-	next "massively and as"
-	next "hard as steel."
+	text "Its DNA is almost"
+	next "the same as KRABBY"
+	next "However, its size"
 
-	page "It has 10,000-HP"
-	next "strength. However,"
-	next "it is too heavy"
+	page "and disposition"
+	next "are vastly dif-"
+	next "ferent"
 	dex
 
 _VoltorbDexEntry::
